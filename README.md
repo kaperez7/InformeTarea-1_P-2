@@ -494,9 +494,7 @@ La medida de 81.8 V es erronea por lo que se puede deducir que el problema se en
 
 4. VIDEO
 
-Aqui den estar el link de youtube de los videos en los que se explique el funcionamiento y la implementación del proyecto.
-En el video se debe explicar 4 ejercicios o problemas.
-
+https://youtu.be/XsAXvm3Brcg
 
 5. CONCLUSIONES
 

@@ -137,18 +137,91 @@ La utilidad del teorema de Thevenin tal vez se ilustra mejor cuando se aplica a 
 
 **Determinación de VTH y RTH empleando mediciones**
 
-![Mind Map (2)](https://user-images.githubusercontent.com/105570939/176835034-42f42802-3117-46a1-a65e-f29f2deee04d.jpg)
-
-
 El teorema de Thevenin es en gran medida una herramienta analítica que se aplica teóricamente para simplificar el análisis de circuitos.
 
+![Mind Map (2)](https://user-images.githubusercontent.com/105570939/176835034-42f42802-3117-46a1-a65e-f29f2deee04d.jpg)
 
+**TEOREMA DE NORTON**
 
+![NORTON](https://user-images.githubusercontent.com/105570939/176835419-4f69926a-4cea-481f-b847-c13253da3719.jpeg)
+
+**TEOREMA DE TRANSFERENCIA DE POTENCIA MAXIMA**
+
+Para una fuente de voltaje dada, la potencia máxima se transfiere desde una fuente hasta una carga cuando la resistencia de la carga es igual a la resistencia interna de la fuente.
+
+Algunas aplicaciones prácticas del teorema de transferencia de potencia máxima incluyen sistemas de audio tales como aparatos estereofónicos, radios, y sistemas de alocución pública. En estos sistemas la resistencia del altavoz es la carga.
+
+**CONVERSIONES DELTA A Y (delta A Y) Y Y A DELTA (Y A delta)**
+
+Un circuito resistivo delta es una configuración de tres terminales.
+
+**Conversión delta a Y**
+
+Es conveniente pensar en la Y colocada dentro de la delta. Para convertir de delta a Y, se requieren R1, R2 y R3 en función de RA, RB y RC. La regla de conversión es como sigue: Cada resistor localizado en la Y es igual al producto de los resistores incluidos en dos ramas delta adyacentes, dividido entre la suma de los tres resistores en delta.
+
+![image](https://user-images.githubusercontent.com/105570939/176837497-81fe440c-ecdb-4928-a131-4736cc0dff2f.png)
+
+**Conversión Y a delta**
+
+Para convertir de Y a delta, RA, RB y RC se requieren en función de R1, R2 y R3. La regla de conversión es la siguiente: Cada resistor incluido en la delta es igual a la suma de todos los posibles productos de resistores Y tomados dos a la vez, y divididos entre el resistor Y opuesto.
+
+![image](https://user-images.githubusercontent.com/105570939/176837741-73b9b7a2-540e-4251-ba3b-f03bbdbffe3b.png)
 
 3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
-En este punto se debe explicar cómo funcionan la implementación del circuito, programa o resolución de problemas.
-La solución deb estar en esta sección, no como un archivo anexo.
+**CAPITULO 7:CIRCUITOS EN SERIE-PARALELO**
+
+**SECCION 7-1: Identificación de relaciones en serie-paralelo**
+
+**1.-Visualice y trace los siguientes circuitos en serie-paralelo:**
+
+**(a) Una combinación en paralelo de tres ramas, cada rama con dos resistores en serie.**
+
+![image](https://user-images.githubusercontent.com/105570939/176839881-b9e10a80-fa0e-4483-81d4-dbaf3bdba76e.png)
+
+**(b) Una combinación serie de tres circuitos en paralelo, cada circuito con dos resistores.**
+
+![image](https://user-images.githubusercontent.com/105570939/176840852-41781887-facf-4045-9620-3392b16becf6.png)
+
+**2.-En cada uno de los circuitos, identifique las relaciones en serie-paralelo de los resistores vistas desde la fuente.**
+
+![image](https://user-images.githubusercontent.com/105570939/176841076-bc7dae65-98fb-4e80-ae1d-65f4ecfcaaba.png)
+
+* En el circuito A R1 y R4 estan en serie con la combinacion de R2 con R3 en paralelo.
+* En el circuito B R1 esta en serie con la combinacion en paralelo de R2, R3, Y R4.
+* En el circuito C hay una combinacion en paralelo de la resistencia R2 Y R3 con la combinacion en paralelo de R4 y R5.
+
+**3.-Desarrolle un diagrama esquemático de la tarjeta de circuito impreso de doble cara y marque los valores de resistor.**
+
+![image](https://user-images.githubusercontent.com/105570939/176842057-86af71b6-18b0-441b-9787-1851c5bbede1.png)
+
+![image](https://user-images.githubusercontent.com/105570939/176843209-c7eeb6c9-9c51-4336-92fc-a68bde484486.png)
+
+**SECCIÓN 7–2 Análisis de circuitos resistivos en serie-paralelo.**
+
+**4.-Un cierto circuito se compone de dos resistores en paralelo. La resistencia total es de 667 ohmios. Uno de los resistores es de 1.0 kohmios. ¿Cuál es el otro resistor?**
+
+![image](https://user-images.githubusercontent.com/105570939/176843599-e4c01c02-29fd-40cf-aacf-dfb6d4825d84.png)
+
+**5.-Repita el problema 9 para cada uno de los circuitos**
+
+![image](https://user-images.githubusercontent.com/105570939/176843726-3986716b-6c79-450b-9359-bd9cf069f2b2.png)
+
+![image](https://user-images.githubusercontent.com/105570939/176843844-009196d8-4551-4b9d-ae4e-42d40e14b0c7.png)
+
+**6.-Determine la corriente a través de cada resistor en cada circuito; luego calcule cada caída de voltaje.**
+
+![image](https://user-images.githubusercontent.com/105570939/176844009-b4b6d8f3-e658-48b0-bd05-434b8ab1086d.png)
+
+**a)** ![image](https://user-images.githubusercontent.com/105570939/176844266-44b85bb1-1a45-4b4e-be00-4624f766779a.png)
+
+**b)** ![image](https://user-images.githubusercontent.com/105570939/176844322-6e849567-9e1f-4b33-85ec-2c1c0cf7241e.png)
+
+**c)** ![image](https://user-images.githubusercontent.com/105570939/176844636-0e127473-3685-441f-96cb-cb5eb6706001.png)
+
+**7.-
+
+
 
 4. VIDEO
 
@@ -162,7 +235,7 @@ Se estable las conclusiones de cada asunto investigado, implicaciones para la te
 
 6. BIBLIOGRAFÍA
 
-Emplear normas APA.
+THOMAS, F. (2007). Principios de circuitos eléctricos.Octava edición. En T. Floyd, Principios de circuitos eléctricos.Octava edición (págs. 226-333).México: Pearson Educación de México, S.A.de C.V.
 
 RUBRICA
 
